@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+li{
+    list-style: none;
+}
+input{
+    outline: none;
+}
+body{
+    background-color: #eee;
+}
+/* 版心 */
+.layout{
+    width: 1190px;
+    margin: 0 auto;
+}
+/* 标题 */
+.titBox{
+    /* height: 295px; */
+    /* background-color: red; */
+    overflow: hidden;
+    margin-top: 135px;
+}
+.titBox>a{
+    width: 286px;
+    height: 100px;
+    display: block;
+    margin-left: 455px;
+    margin-top: 135px;
+    margin: 0 auto;
+    text-align: center;
+}
+.titBox img{
+    width: 286px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+/* 内容 */
+.conBox{
+    height: 1606px;
+    background-color: #fff;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.conBox>.tetxTit{
+    width: 100%;
+    height: 67px;
+    /* background-color: red; */
+    margin-top: 85px;
+    text-align: center;
+    line-height: 67px;
+    font-size: 67px;
+    font-weight: bold;
+}
+.conBox>.icon{
+    width: 100%;
+    height: 140px;
+    border-bottom: 2px #ccc solid;
+    /* background-color: green; */
+    overflow: hidden;
+    margin-top: 75px;
+}
+.conBox>.icon>.iconBox{
+    width: 922px;
+    height: 100%;
+    /* background-color: red; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.conBox>.icon>.iconBox>.L{
+    width: 448px;
+    height: 84px;
+    float: left;
+}
+.conBox>.icon>.iconBox>.L>.t1{
+    width: 448px;
+    height: 84px;
+    background:pink url(../images/denglu/entry.png) no-repeat 0px 0px;
+    background-size: 448px 365px;
+    cursor: pointer;
+    text-align: center;
+}
+.conBox>.icon>.iconBox>.L>.t1>span{
+    line-height: 84px;
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    left: 34px;
+    top: 0px;
+    display: block;
+}
+
+.conBox>.icon>.iconBox>.R{
+    width: 448px;
+    height: 84px;
+    float: right;
+    background:pink ;
+}
+.conBox>.icon>.iconBox>.R>.t2{
+    width: 448px;
+    height: 84px;
+    background:pink url(../images/denglu/entry.png) no-repeat 0px -88px;
+    background-size: 448px 365px;
+    cursor: pointer;
+    text-align: center;
+}
+.conBox>.icon>.iconBox>.R>.t1>span{
+    line-height: 84px;
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    left: 34px;
+    top: 0px;
+    display: block;
+}
+/* 码 */
+.conBox>.code{
+    width: 308px;
+    height:308px;
+    margin: 0 auto;
+    background: red url(../images/denglu/654181270f26425aecdb79b739635879.jpg) no-repeat ;
+    background-size:100% 100% ;
+    margin-top: 45px ;
+}
+/* 小字 */
+.conBox>.small_character{
+    width: 100%;
+    height: 46px;
+    /* background-color: red; */
+    margin-top: 40px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 35px;
+    color: #000;}
+/* .conBox>.small_character>i{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background:url(../images/icons_0_16.png) no-repeat 0px -1612px;
+
+} */
+
+
+/* 小字 */
+.conBox>.small_character2{
+    width: 100%;
+    height: 38px;
+    /* background-color: red; */
+    margin-top: 40px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 38px;
+    color: #acabaa;}
+.conBox>.small_character2>a{
+    color: #acabaa;
+}
+/* 注册开始 */
+.conBox>form{
+    width: 100%;
+    height: 540px;
+    /* background-color: yellow; */
+    margin-top: 30px;
+}
+.conBox>form>input{
+    width: 655px;
+    height:88px ;
+    font-size: 34px;
+    margin-left: 266px;
+}
+.conBox>form>.to{
+    margin-top: 50px;
+}
+.conBox>form .box3{
+    margin-left:266px ;
+}
+.conBox>form .sz{
+    width:35px ;
+    height: 35px;
+    margin-top: 60px;
+}
+.conBox>form>.box3 span{
+    height: 35px;
+    font-size: 35px;
+    display: inline-block;
+    color: #b6b4b4;
+    line-height: 35px;
+}
+.conBox>form>.box3 p{
+    display: inline;
+    font-size: 35px;
+    line-height: 35px;
+    margin-left: 215px;
+}
+.conBox>form>.enter{
+    width: 448px;
+    height: 92px;
+    margin-left: 370px;
+    margin-top: 110px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+}
+/* 底部 */
+.but{
+    height: 392px;
+    /* background: red; */
+    margin-top: 62px;
+    font-size: 34px;
+    color: #b6b4b4;
+    text-align: center;
+}
+.but>a{
+    color: #982f03;
+}
