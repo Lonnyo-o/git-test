@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    background-color: red;
+}
+.box{
+    width: 934px;
+    height: 402px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.box>.box2{
+    width: 883px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: green; */
+
+}
+.box .boxL{
+    width:338px ;
+    height:338px;
+    /* background-color: yellow; */
+    float: left;
+    margin-top: 32px;
+    border-radius: 15px;
+}
+.box .boxL>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.box .topTit{
+    width: 215px;
+    height: 45px;
+    background-color: #3dcc55;
+    font-size: 25px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    position: absolute;
+    border-radius: 10px 0px 10px 0px;
+    /* font-weight: bold; */
+    top:0px;
+    left: 0px;
+}
+.box .boxR{
+    width: 520px;
+    height: 356px;
+    /* background-color: yellow; */
+    float: right;
+    margin-top: 32px;
+}
+.box .boxR>.titleBox{
+    width: 100%;
+    height: 48px;
+    /* margin-top: 38px; */
+    /* background-color: pink; */
+}
+.box .boxR>.titleBox>.titleBoxL{
+    width: 73px;
+    height: 100%;
+    background-color: #ff3312;
+    color: #fff;
+    border-radius: 5px;
+    float: left;
+    font-size:26px ;
+    text-align: center;
+    line-height: 48px;
+    font-weight: bold;
+}
+.box .boxR>.titleBox>.titleBoxR{
+    width: 430px;
+    height: 100%;
+    float: right;
+    line-height: 48px;
+    font-size:30px;
+    color: #000;
+}
+.box .boxR .tu{
+    width: 520px;
+    height: 185px;
+    position: relative;
+    /* background-color: green; */
+    margin-top: 30px;
+    
+}
+.box .boxR .tu>img{
+    width: 520px;
+    height: 80px;
+    margin-top: 40px;
+}
+.box .boxR .tu .price{
+    width: 140px;
+    height: 60px;
+    background-color: #ff3312;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 190px;
+    font-size: 36px;
+}
+.box .boxR .tu .price >span{
+    font-size: 25px;
+    color: #fff;
+    line-height: 62px;
+}
+.box .boxR .tu .pricetext1{
+    width:82px ;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* background-color: pink; */
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #666;
+}
+.box .boxR .tu .pricetext2{
+    width:82px ;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 438px;
+    /* background-color: pink; */
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #666;
+}
+.box .boxR .tu s{
+    display: block;
+    font-size: 24px;
+    color: #666;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+
+}
+.box .boxR .tu .text{
+    display: block;
+    font-size: 24px;
+    color: #666;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    margin-right: 15px;
+
+}
+.box .boxR .tu .depreciate{
+    font-size: 30px;
+    color:#ff3312;
+    position: absolute;
+    top: 120px;
+    left:195px;
+}
+.box .boxR .bot{
+    width: 520px;
+    height: 90px;
+    background: url(../images/btn_half_green.png) no-repeat;
+    border-radius: 15px;
+    position: relative;
+}
+.box .boxR .bot>.tetxBot{
+    font-size: 33px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    color: #fff;
+}
+.box .boxR .bot>.tetxBot2{
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: #fff;
+}
+.box .boxR .bot>.tetxBot3{
+    font-size: 40px;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    color: #fff;
+}
