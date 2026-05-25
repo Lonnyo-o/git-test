@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+li{
+    list-style: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+/* 版心 */
+.layout{
+    width: 1190px;
+    margin: 0 auto;
+}
+/* 顶部大合子 */
+.Top{
+    height: 95px;
+    background-color: #fffaf7;
+    border-bottom:2px solid #d5d2ce ;
+    overflow: hidden;
+}
+/* 标题开始 */
+.Top>.titleTopBox{
+    height: 55px;
+    /* background-color: red; */
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+/* logo */
+.Top>.titleTopBox>.Logo{
+    width: 113px;
+    height: 55px;
+    /* background-color: yellow; */
+    float: left;
+}
+.Top>.titleTopBox>.Logo img{
+    width: 100%;
+    height: 100%;
+}
+/* 搜索开始 */
+.Top>.titleTopBox>.searchBox{
+    /* width: 267px; */
+    width: 357px;
+    height: 40px;
+    /* background-color: yellow; */
+    float: left;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.Top>.titleTopBox>.searchBox>.searchBoxL{
+    width: 267px;
+    height: 38px;
+    background-color: #fffaf7;
+    float: left;
+    border: 1px #d5d2ce solid;
+}
+.Top>.titleTopBox>.searchBox>.searchBoxL>input{
+    width: 260px;
+    height: 38px;
+    /* background-color: #fffaf7; */
+    float: left;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.Top>.titleTopBox>.searchBox>.searchBoxR{
+    width: 86px;
+    height: 38px;
+    background-color: #993300;
+    border: 1px solid #b27d65;
+    float: left;
+    cursor: pointer;
+}
+.Top>.titleTopBox>.searchBox>.searchBoxR>div{
+    width: 26px;
+    height: 26px;
+    background: red url(../images/Top/sousuo.png) no-repeat;
+    background-size:100% 100% ;
+    float: left;
+    margin-top: 6px;
+    margin-left: 30px;
+}
+/* 登录 */
+.Top>.titleTopBox>.register{
+    width: 85px;
+    height: 27px;
+    /* background-color: pink; */
+    float: right;
+    margin-top: 20px;
+}
+/* 导航开始 */
+.nvt{
+    height: 50px;
+    background-color: #fffaf7;
+    border-bottom: 1px solid #d5d2ce;
+    overflow: hidden;
+}
+.nvt>.nvtBox{
+    height: 50px;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+.nvt .nvtL{
+    width: 850px;
+    height: 100%;
+    /* background-color: yellow; */
+    float: left;
+    margin-left: 22px;
+    overflow: hidden;
+}
+.nvt .nvtL>ul>li{
+    float: left;
+    margin-right: 40px;
+    line-height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nvt .nvtL>ul>li span{
+    display: inline-block;
+    font-size:10px ;
+    vertical-align: top;
+    margin-left: 4px;
+}
+.nvt .nvtL>ul>li a{
+    color: #a4653e;
+}
+/* R */
+.nvt .nvtR{
+    width: 133px;
+    height: 100%;
+    /* background-color: yellow; */
+    float: right;
+    overflow: hidden;
+}
+.nvt .nvtR>.img{
+    margin-top: 12px;
+    float: left;
+    cursor: pointer;
+}
+.nvt .nvtR>.tetx{
+    margin-top: 12px;
+    float: left;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+/* 顶部结束 */
+
+/* 内容 */
+.conBox{
+/* height: 1600px; */
+background-color: #eeece9;
+overflow: hidden;
+}
+.conBox>.con{
+    height: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+    margin-top: 70px;
+}
+/* L */
+.conBox>.con>.conL{
+    width: 793px;
+    /* height: 100%; */
+    background-color: #fff;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 46px;
+}
+.conBox>.con>.conL>.ccc{
+    width: 715px;
+    height: 100%;
+    /* background-color: red; */
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.conBox>.con>.conL>.ccc>h2{
+    width: 100%;
+    height: 80px;
+    border-bottom:2px solid #ccc ;
+    font-size: 20px;
+    line-height: 80px;
+    font-size: 35px;
+    margin-top:48px ;
+}
+.conBox>.con>.conL>.ccc>ul{
+    width: 715px;
+    height: 100%;
+    /* background-color: pink; */
+    float: left;
+    overflow: hidden;
+}
+.conBox>.con>.conL>.ccc>ul>li{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    margin-top: 23px;
+    overflow: hidden;
+    border-bottom:2px #ccc solid; 
+    margin-bottom: 23px;
+}
+.conBox>.con>.conL>.ccc>ul>li>ul{
+    width: 240px;
+    height: 75px;
+    /* background-color: green; */
+    overflow: hidden;
+    float: left;
+}
+
+.conBox>.con>.conL>.ccc>ul>li>ul>li{
+    width: 74px;
+    height: 74px;
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+    background-color: #993300;
+}
+.conBox>.con>.conL>.ccc>ul>li>ul>li>img{
+    width: 100%;
+    height: 100%;
+}
+.conBox>.con>.conL>.ccc>ul>li .RRR{
+    width: 400px;
+    height: 100%;
+    /* background-color: green; */
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.conBox>.con>.conL>.ccc>ul>li .RRR>.text1{
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #993300;
+    margin-top: 20px;
+}
+.conBox>.con>.conL>.ccc>ul>li .RRR>.tetx2{
+    margin-top: 15px;
+    color: #ccc;
+}
+.conBox>.con>.conL>.ccc>ul>.buu{
+    margin-bottom: 80px;
+}
+/* R */
+.conBox>.con>.conR{
+    width: 375px;
+    height: 100%;
+    /* background-color: yellow; */
+    float: right;
+    overflow: hidden;
+}
+
+.conBox>.con>.conR>.box11{
+    width: 100%;
+    height: 308px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.conBox>.con>.conR>.box22{
+    width: 100%;
+    height: 525px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.conBox>.con>.conR .box22Top{
+    width: 100%;
+    height: 62px;
+    background-color: #e5e3e0;
+    overflow: hidden;
+    line-height: 62px;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.conBox>.con>.conR .box22Top>span{
+    color: #993300;
+}
+.conBox>.con>.conR .dishes{
+    width: 353px;
+    height: 428px;
+    /* background-color: red; */
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.conBox>.con>.conR .dishes>li{
+    width: 100%;
+    height: 65px;
+    /* background-color: blue; */
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.conBox>.con>.conR .dishes>li>.dishesL{
+    width: 135px;
+    height: 100%;
+    float: left;
+    /* background-color: pink; */
+    overflow: hidden;
+}
+.conBox>.con>.conR .dishes>li>.dishesL>img{
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+}
+.conBox>.con>.conR .dishes>li>.dishesR{
+    width: 150px;
+    height: 100%;
+    overflow: hidden;
+    float: right;
+    /* background-color: #993300; */
+}
+.conBox>.con>.conR .dishes>li>.dishesR>.c1{
+    font-size: 16px;
+    line-height: 20px;
+    color:#993300;
+}
+.conBox>.con>.conR .dishes>li>.dishesR>.c2{
+    font-size: 16px;
+    line-height: 5px;
+    color:#d5d2ce;
+    margin-top: 21px;
+}
+.conBox>.con>.conR .tt1{
+    width: 100%;
+    height: 280px;
+    background: red url(../images/side_act_ali.jpg) no-repeat;
+    background-size: 100% 200%;
+}
+
+
+
+
+
+
+/* 底部开始！!!!! */
+.butBox{
+    height: 207px;
+    background-color: #d6d4d0;
+    overflow: hidden;
+}
+.butBox>.butBox1{
+    height: 207px;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.butBox>.butBox1>.text1{
+    width: 100%;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #993300;
+    margin-top: 62px;
+}
+.butBox>.butBox1>.text2{
+    margin-top: 22px;
+    color: #000;
+}
