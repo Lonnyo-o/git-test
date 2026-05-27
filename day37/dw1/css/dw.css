@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+.box{
+    width:276px ;
+    height:290px ;
+    margin-left: 7px;
+    margin-top: 20px;
+    /* overflow: hidden; */
+    /* background-color: red; */
+    margin: 20px auto;
+    z-index: 1;
+}
+.box>.boxTop{
+    width: 100%;
+    height: 185px;
+    background: url(../images/480x320.jfif);
+    background-size:100% 100% ;
+    /* overflow: hidden; */
+    position: relative;
+}
+.box>.boxTop>.icoBox{
+    width: 38px;
+    height: 16px;
+    /* background-color: yellow; */
+    margin-top: 160px;
+    margin-left: 227px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.box>.boxTop>.icoBox>.ico{
+    width:17px ;
+    height: 13px;
+    background:url(../images/yp-icons.20abdb4e.png) no-repeat -1px -530px;
+    float: left;
+}
+.box>.boxTop>.icoBox>.text{
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 20px;
+    color: #fff;
+
+}
+.box>.boxBot{
+    width: 275px;
+    height: 104px;
+    border: 1px #ccc solid;
+    border-top:none ;
+    position: relative;
+}
+.box>.boxBot>.to{
+    height: 60px;
+    width: 140px;
+    /* background-color: red; */
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+.box>.boxBot>.to>.yuan{
+    width:55px;
+    height: 55px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    float: left;
+}
+.box>.boxBot>.to>.yuan>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.box>.boxBot>.to .zi{
+    font-size: 14px;
+    color: #000;
+    margin-left: 6px;
+    float: left;
+    margin-top: 40px;
+}
+.box>.boxBot>p{
+    padding-top: 45px;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.ico1{
+    width: 52px;
+    height: 40px;
+    background: url(../images/下载.svg) no-repeat;
+    background-size: 100% 100%;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    z-index: 100;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* 版心 */
+.layout{
+    width: 1190px;
+    margin: 0 auto;
+}
+.Box{
+    height: 353px;
+    /* background-color: red; */
+    margin-top: 17px;
+}
+.Box>li{
+    width: 283px;
+    height: 353px;
+    background-color: yellow;
+    float: left;
+    margin-right: 18px;
+    border-radius: 25px;
+}
+.Box>.special{
+    margin-right: 0;
+}
+.Box>.img1{
+    background: url(../images/t1]jpg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.Box>.img2{
+    background: url(../images/t.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.Box>.img3{
+    background: url(../images/3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.Box>.img4{
+    background: url(../images/4.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.Box .text{
+    width: 100%;
+    height: 87px;
+    background-color: rgba(0,0,0,0.4);
+    margin-top: 265px;
+    border-radius: 0px 0px 25px 25px;
+    position: relative ;
+}
+.Box .text>h2{
+    font-size: 16px;
+    color: #fff;
+    list-style: 22px;
+    padding-top: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.Box .text>.ico{
+    width:80px ;
+    height: 25px;
+    background: #6a6efe;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}

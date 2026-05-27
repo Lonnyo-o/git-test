@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    height: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+/* 板心 */
+.layout{
+    width: 1190px;
+    margin: 0 auto;
+}
+.box{
+    width: 100%;
+    height:420px;
+    background:url(../images/index.jpg) no-repeat ;
+    background-size:100% 100% ;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.box>.box1{
+    height: 420px;
+    background:url(../images/index.webp) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.box>.box1>.text{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.box>.box1 .xian{
+    text-decoration: underline;
+}
+.box>.box1>h2{
+    height: 60px;
+    font-size: 25px;
+    color: #fff;
+    line-height: 36px;
+    margin-top: 327px;
+    margin-left: 172px;
+    margin-right: 225px;
+}
+.box3{
+    width: 100%;
+    height: 78px;
+    background-color: #f0f0f0;
+}
+.box3>.botBox{
+    height: 78px;
+    /* background-color: #fff; */
+    position: relative;
+}
+
+.box3>.botBox>.headPortrait{
+    width: 132px;
+    height: 60px;
+    /* background-color: red; */
+    float: left;
+    margin-left:20px ;
+    margin-right: 20px;
+    position: relative;
+}
+.box3>.botBox>.chunk2{
+    width: 385px;
+    height: 60px;
+    /* background-color: red; */
+    float: left;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+.box3>.botBox>.chunk2>.sang{
+    width: 100%;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.box3>.botBox>.chunk2 .text11{
+    font-size: 14px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.box3>.botBox>.chunk2 .wire1{
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.box3>.botBox>.chunk2 .ico1{
+    width: 78px;
+    height: 20px;
+    background-color: #ff735f;
+    display: inline-block;
+    border-radius: 3px;
+}
+.box3>.botBox>.chunk2 .ico1>img{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: top;
+    margin-top: 4px;
+}
+.box3>.botBox>.chunk2 .ico1>p{
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    color: #fff;
+}
+
+.box3>.botBox>.chunk2 .xia{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+.box3>.botBox>.chunk2 .xia>.xiao1{
+    width: 100px;
+    height: 100%;
+    /* background-color: yellow; */
+    float: left;
+}
+.box3>.botBox>.chunk2 .xia>.xiao2{
+    width: 100px;
+    height: 100%;
+    /* background-color: yellow; */
+    float: left;
+}
+.box3>.botBox>.chunk2 .xia>.xiao3{
+    width: 140px;
+    height: 100%;
+    /* background-color: yellow; */
+    float: left;
+    margin-left: 22px;
+}
+.box3>.botBox>.chunk2 .xia>.xiao3>.text{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    color: #10b041;
+    margin-right: 5px;
+}
+
+
+.box3>.botBox>.chunk2 .xia>.xiao1>.img11{
+    width: 17px;
+    height: 15px;
+    background: url(../images/yp-icons.20abdb4e.png) no-repeat -7px -1720px;
+    margin-right: 8px;
+    float: left;
+}
+.box3>.botBox>.chunk2 .xia>.xiao1>p{
+    font-size: 12px;
+}
+.box3>.botBox>.chunk2 .xia>.xiao2>.img22{
+    width: 17px;
+    height: 15px;
+    background: url(../images/yp-icons.20abdb4e.png) no-repeat -7px -1720px;
+    margin-right: 8px;
+    float: left;
+}
+.box3>.botBox>.chunk2 .xia>.xiao2>p{
+    font-size: 12px;
+}
+
+.box3>.botBox .toxiang{
+    width:125px ;
+    height: 125px;
+    border-radius: 50%;
+    border: 4px #fff solid;
+    background: url(../images/200.jpg);
+    position: absolute;
+    top: -73px;
+    left: 0px;
+
+}
+.box3>.botBox .toxiang>img{
+    width:30px ;
+    height: 30px;
+    position: absolute;
+    top: 98px;
+    right: 0px;
+
+}
+
+
+/* .box3>.botBox>.chunk3{
+    width:380px ;
+    height: 60px;
+    background-color: red;
+    float: left;
+    margin-left:20px ;
+    margin-right: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.box3>.botBox>.box3L{
+    width: 380px;
+    height: 100%;
+    float: left;
+    /* background-color: red; */
+    margin-left: 177px;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.box3>.botBox>.box3L>.topS{
+    width: 100%;
+    height: 22px;
+    /* background-color: green; */
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.box3>.botBox>.box3L>.topS>.text1{
+    display: inline-block;
+    line-height: 22px;
+    font-size: 14px;
+    margin-right: 10px;
+
+}
+.box3>.botBox>.box3L>.topS>.wire{
+    display: inline-block;
+    margin-right: 10px;
+    color: #ccc;
+}
+.box3>.botBox>.box3L>.topS>.tu{
+    width:75px ;
+    height: 20px;
+    background-color: #ff735f;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 2px;
+    border-radius: 3px;
+}
+.box3>.botBox>.box3L>.topS>.tu>img{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+.box3>.botBox>.box3L>.topS>.tu>span{
+    width: 24px;
+    height: 12px;
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+}
+.box3>.botBox>.box3L>.botX{
+    width: 100%;
+    height: 16px;
+    /* background-color: pink; */
+}
+.box3>.botBox>.box3L>.botX>.botX1{
+    width: 100px;
+    height: 100%;
+    /* background-color: green; */
+    margin-right:15px ;
+    float: left;
+}
+.box3>.botBox>.box3L>.botX>.botX1>.img1{
+    width:17px ;
+    height: 15px;
+    background: url(../images/yp-icons.20abdb4e.png) no-repeat -7px -1720px;
+    margin-right: 8px;
+    float: left;
+}
+.box3>.botBox>.box3L>.botX span{
+    display: inline-block;
+    font-size: 10px;
+    vertical-align: top;
+}
+
+.box3>.botBox>.box3L>.botX>.botX2{
+    width: 100px;
+    height: 100%;
+    /* background-color: green; */
+    margin-right:15px ;
+    float: left;
+}
+.box3>.botBox>.box3L>.botX>.botX2>.img2{
+    width:17px ;
+    height: 15px;
+    background: url(../images/yp-icons.20abdb4e.png) no-repeat -7px -1720px;
+    margin-right: 8px;
+    float: left;
+}
+
+
+.box3>.botBox>.box3L>.botX>.botX3{
+    width: 130px;
+    height: 100%;
+    /* background-color: green; */
+    float: left;
+}
+.box3>.botBox>.box3L>.botX>.botX3>.cl{
+    margin-right: 12px;
+    color: #10b041;
+    font-weight: bold;
+    
+}
+
+.box3>.botBox>.box3R{
+    width: 295px;
+    height: 100%;
+    /* background-color: red; */
+    padding: 0px;
+    float: right;
+}
+.box3>.botBox>.box3R>li{
+    width: 73px;
+    height: 100%;
+    /* background-color: yellow; */
+    float: left;
+    border-right: 1px #ccc solid;
+
+}
+.box3>.botBox>.box3R>.left{
+    border-left: 1px #ccc solid;
+}
+.box3>.botBox>.box3R>li>.img1{
+    width:17px ;
+    height: 15px;
+    background: url(../images/yp-icons.20abdb4e.png) no-repeat -7px -1720px;
+    margin-top: 21px;
+    margin-left: 28px;
+}
+.box3>.botBox>.box3R>li>span{
+    height: 12px;
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 5px;
+    /* margin-left: 20px; */
+    text-align: center;
+}
+.box3>.botBox .to{
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+    border: 3px #fff solid;
+    background: url(../images/200.jpg) no-repeat ;
+    background-size:100% 100% ;
+    position: absolute;
+    top: -55px;
+    left: 26px;
+    position: relative;
+}
+.box3>.botBox .to2{
+    width: 24px;
+    height: 24px;
+    background: url(../images/authentication_u.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 75px;
+    left: 85px;
+}
